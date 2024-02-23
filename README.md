@@ -1,2 +1,16 @@
-# PORBAL441_WFO2401_GroupA_PortiaBaloyi_SDF11
- Building a landing page for a bank
+# Installation
+
+```
+# Install dependencies
+npm install
+
+# Start the development server with live preview using Browsersync
+npm run browsersync
+
+# Compile Tailwind CSS
+npm run build
+
+# Compile Tailwind CSS minified
+npm run build-minify
+
+```
