@@ -2,6 +2,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Cache Bank Landing Page</title>
+    <!-- Linking to JavaScript file -->
+    <script src="index.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
@@ -25,6 +27,7 @@
                 <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-gray-900">Get Started</a>
                 <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-gray-900">Contact</a>
             </div>
+
             <div class="hidden md:flex items-center gap-8">
                 <button class="text-sm font-normal text-dark-grey-800 hover:text-dark-grey-900">Log In</button>
                 <button class="px-4 py-2 text-sm font-bold text-blue bg-green-500 rounded-xl hover:bg-pink-500">Sign Up</button>
@@ -52,19 +55,23 @@
                     </defs>
               </svg>
             </button>
-            <div class="hidden md:flex items-center gap-12">
-                <div class="hidden sm:flex items-center gap-12">
-                    <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-gray-900">Product</a>
-                    <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-gray-900">Features</a>
-                    <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-gray-900">Get Started</a>
-                    <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-700 hover:text-gray-900">Contact</a>
-                </div>
-                <div class="hidden sm:flex items-center gap-8">
-                    <button class="text-sm font-normal text-dark-grey-800 hover:text-dark-grey-900">Log In</button>
-                    <button class="px-4 py-2 text-sm font-bold text-blue bg-green-500 rounded-xl hover:bg-pink-500">Sign Up</button>
+            <div class="fixed top-0 left-0 w-full h-full bg-white z-50 hidden" id="mobile-menu">
+                <div class="flex flex-col justify-center items-center h-full">
+                    <a href="#" class="text-sm font-normal text-dark-grey-700 hover:text-gray-900 mb-4">Product</a>
+                    <a href="#" class="text-sm font-normal text-dark-grey-700 hover:text-gray-900 mb-4">Features</a>
+                    <a href="#" class="text-sm font-normal text-dark-grey-700 hover:text-gray-900 mb-4">Get Started</a>
+                    <a href="#" class="text-sm font-normal text-dark-grey-700 hover:text-gray-900 mb-4">Contact</a>
+                    <button class="flex items-center px-4 py-2 text-sm font-normal text-black mb-4">Log In</button>
+                    <button class="flex items-center px-4 py-2 text-sm font-bold text-blue bg-green-500 rounded-xl hover:bg-pink-500">Sign Up</button>
                 </div>
             </div>
         </div>
+
+        <script>
+            document.getElementById("mobile-menu-toggle").addEventListener("click", function(){
+                document.getElementById("mobile-menu").classList.toggle("hidden");
+            });
+        </script>
 
         <!-- Component 2: Hero and Endorsements -->
         <!-- HERO-->
