@@ -1,16 +1,19 @@
-# Installation
+# Portia Baloyi
 
-```
-# Install dependencies
-npm install
+# SDF11 PORTFOLIO PIECE 
 
-# Start the development server with live preview using Browsersync
-npm run browsersync
+# Resources used
+    -Component 1 Lecture
+    -Component 2 Lecture
+    -Component 3 Lecture
+    -Component 4 Lecture
+    -Component 5 Lecture
+    -Scrimba Build and Deploy your Portfolio lecture
+    -ChatGPT
 
-# Compile Tailwind CSS
-npm run build
+# Project description
+Creating a responsive business landing page for a fictitious banking solution, Cache Bank, targeted at software developers. 
 
-# Compile Tailwind CSS minified
-npm run build-minify
+# Extra links
 
 ```
