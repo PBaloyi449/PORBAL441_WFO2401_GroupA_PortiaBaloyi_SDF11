@@ -1,6 +1,6 @@
 # Portia Baloyi
 
-# SDF11 PORTFOLIO PIECE 
+# SDF11 PORTFOLIO PIECE: Cache Bank Business Landing Page Portfolio Piece
 
 # Resources used
     -Component 1 Lecture
